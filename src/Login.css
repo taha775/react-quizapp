@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: black;
+    color: wheat;
+    width: 100%;
+    height: 632px;
+    position: absolute;
+    
+}
+
+.login{
+    margin-top: 140px;
+    margin-left: 400px;
+    font-size: 20px;
+    position: absolute;
+    padding: 50px;
+
+}
+
+.labels{
+    margin-left: 20px;
+    width: 100px;
+    color: green;
+    position: inherit;
+}
+
+input{
+    color: green;
+    background-color: black;
+    margin-left: 200px;
+    width: 300px;
+    height: auto;
+    
+}
+
+.btn{
+    background-color: black !important;
+    color: green;
+    border: 2px solid darkgreen !important;
+    margin-left: 200px;
+}

@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
+height: 268px;
+flex-shrink: 0;
+display: flex;
+
+min-height: 100vh;
+max-height: auto;
+
+}
+
+.siderectangle{
+    width: 2%;
+    background-color: #a46c9c;
+    font-size: 25px;
+
+}
+
+.rightbar{
+    width: 97%;
+   background-image: url('./assests/Rectangle.png');
+   background-repeat: no-repeat;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;    
+    z-index: -1;
+    
+    
+    
+}
+
+.quiztext{
+    margin-left: 300px;
+    margin-top: 200px;
+    background-color: #45C486;
+    color: #020f18;
+    position: inherit;
+    padding: 10px;
+    border: 2px solid #2d8058;
+    border-radius: 20px;
+}
+.flowtext{
+    margin-left: 445px;
+    margin-top: 200px;
+    background-color: #020f18;
+    border: 2px solid #2d8058;
+    color: #45C486;
+    position: inherit;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+
+.gettingstartedtext {
+    margin-left: 470px;
+    margin-top: 400px;
+    background-color: #020f18;
+    border: 2px solid #2d8058;
+    color: #45C486;
+    position: inherit;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    height: 60px;
+    width: 300px;
+    font-size: 25px;
+    cursor: pointer; /* Optionally, add a pointer cursor when hovering over the button */
+    
+}
+
+.gettingstartedtext:hover{
+    background-color: #45C486;
+    color: #020f18;
+}
+
+
+
+.line{
+width: 468px;
+height: 4px;
+flex-shrink: 0;
+border-radius: 15.057px;
+background: linear-gradient(140deg, #92E3A9 0%, rgba(146, 227, 169, 0.00) 100%);
+margin-top: 280px;
+margin-left: 300px;
+}
+
+.vectors{
+    display: flex;
+    
+
+}
+
+.vector1{
+    background-color: rgb(77, 51, 194);
+    width: 37.014px;
+    height: 70.593px;
+    flex-shrink: 0;
+    fill: #000;
+   margin-top: 280px;
+    margin-left: 200px;
+    border-radius:4px;
+    
+  
+    
+}
+
+
+.vector2{
+    background-color: rgb(37, 179, 155);
+    width: 37.014px;
+    height: 110px;
+    flex-shrink: 0;
+    fill: #954040;
+    margin-top: 240px;
+    margin-left: 10px;
+    border-radius:4px;
+  
+    
+}
+.vector3{
+    background-color: rgb(170, 216, 42);
+    width: 37.014px;
+    height: 150px;
+    flex-shrink: 0;
+    fill: #000;
+    margin-top: 200px;
+    margin-left: 10px;
+    border-radius:4px;
+  
+    
+}
+.vector4{
+    background-color: rgb(255, 108, 28);
+    width: 37.014px;
+    height: 190px;
+    flex-shrink: 0;
+    fill: #000;
+    margin-top: 160px;
+    margin-left: 10px;
+    border-radius:4px;
+  
+    
+}
+.vector5{
+    background-color: rgb(156, 250, 162);
+    width: 37.014px;
+    height: 150px;
+    flex-shrink: 0;
+    fill: #2ae993;
+    margin-top: 200px;
+    margin-left: 10px;
+    border-radius:4px;
+  
+    
+}
+
+.vector6{
+    background-color: rgb(98, 25, 25);
+    width: 37.014px;
+    height: 110px;
+    flex-shrink: 0;
+    fill: #954040;
+    margin-top: 240px;
+    margin-left: 10px;
+    border-radius:4px;
+    
+}
+
+.vector7{
+    background-color: rgb(19, 27, 115);
+    width: 37px;
+    height: 70.593px;
+    flex-shrink: 0;
+    fill: #000;
+   margin-top: 280px;
+    margin-left: 10px;
+    border-radius:4px;
+    
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+
+  left:30;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+
+
+
